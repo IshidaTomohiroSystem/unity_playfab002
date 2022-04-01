@@ -1,1 +1,5 @@
 # unity_playfab002
+
+PlayFabData
+PlayFabEditorExtensions.unitypackageをダブルクリック
+all import
