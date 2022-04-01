@@ -3,3 +3,4 @@
 PlayFabData
 PlayFabEditorExtensions.unitypackageをダブルクリック
 all import
+PlayFab EdExでログイン
