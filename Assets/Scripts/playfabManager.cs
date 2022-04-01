@@ -4,7 +4,7 @@ using UnityEngine;
 using PlayFab;
 using PlayFab.ClientModels;
 
-public class playfabManager : MonoBehaviour
+public class PlayFabManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -60,7 +60,7 @@ public class playfabManager : MonoBehaviour
             result => {
                 Debug.Log("");
                 result.Leaderboard.ForEach(
-                    x => Debug.Log(string.Format("rank {0}: score {1}", x.Position+1, x.StatValue))
+                    x => Debug.Log(string.Format("rank {0}: score {1}", x.Position + 1, x.StatValue))
                 );
             },
             error => Debug.Log(error)
