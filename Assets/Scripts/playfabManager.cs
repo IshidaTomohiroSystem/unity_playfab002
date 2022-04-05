@@ -48,6 +48,7 @@ public class PlayFabManager : MonoBehaviour
         }
     }
 
+    //ランキングの情報の取得に成功
     private void RequestLeaderboard()
     {
         PlayFabClientAPI.GetLeaderboard(
@@ -67,6 +68,7 @@ public class PlayFabManager : MonoBehaviour
         );
     }
 
+    //ランキングの情報を更新
     private void SubmitScore(int score)
     {
         PlayFabClientAPI.UpdatePlayerStatistics(

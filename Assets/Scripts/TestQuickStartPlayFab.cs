@@ -46,10 +46,6 @@ public class TestQuickStartPlayFab : MonoBehaviour
         Debug.LogError(error.GenerateErrorReport());
     }
 
-    //=================================================================================
-    //æ“¾Œ‹‰Ê
-    //=================================================================================
-
     //ƒCƒ“ƒxƒ“ƒgƒŠ‚Ìî•ñ‚Ìæ“¾‚É¬Œ÷
     private void OnSuccessInventory(GetUserInventoryResult result)
     {
